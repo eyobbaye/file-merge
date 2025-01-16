@@ -5,16 +5,13 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
 
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
-  const loginBtn = document.querySelector(".login-btn");
-
-  // Add loading state
-  // loginBtn.classList.add("loading");
-  // loginBtn.disabled = true;
+  const loginBtn = document.getElementById("login-btn");
 
   // check if username and password are a match the expected
 
-  if (username === "silas" && password === "user321") {
+  if (username === "Silas" && password === "user321") {
     console.log("login success");
+    localStorage.setItem("username", username);
     // Redirect to index.html
     window.location.href = "merge.html";
   } else {

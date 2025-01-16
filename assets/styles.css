@@ -38,12 +38,29 @@ body {
 .image-logo {
   height: 40px;
 }
+#user {
+  color: #f4f4f4;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 28px;
+  margin-left: 15px;
+}
+/* #user[id="user"] {
+  text-transform: uppercase;
+} */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+  padding-right: 90px;
+}
 /* Logout Modal */
 #logoutBtn {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #ef5350;
+  background-color: rgb(224, 150, 13);
+  font-weight: 600;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -60,10 +77,37 @@ body {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
 }
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  /* margin-right: 20px; */
+  padding: 20px;
+  /* float: right; */
+  border: 1px solid #888;
+  width: 40%;
+}
 .close {
   color: #c62828;
   float: right;
   font-size: 28px;
+  cursor: pointer;
+}
+.modal-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#confirmLogout {
+  background-color: #257beb;
+}
+#confirmLogout:hover {
+  background-color: rgb(21, 81, 160);
+}
+#cancelLogout {
+  background-color: #c62828;
+}
+#cancelLogout:hover {
+  background-color: #a01111;
 }
 
 /* End-of-Modla logout */

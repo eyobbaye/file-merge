@@ -26,7 +26,7 @@ body {
   height: 15px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(19, 82, 218);
+  background-color: #0c54a4;
   padding: 30px 40px;
   position: fixed;
   z-index: 100;
@@ -39,7 +39,7 @@ body {
   height: 40px;
 }
 #user {
-  color: #f4f4f4;
+  color: #e0960d;
   font-weight: 600;
   letter-spacing: 4px;
   font-size: 28px;
@@ -98,7 +98,7 @@ body {
   cursor: pointer;
 }
 #confirmLogout {
-  background-color: #257beb;
+  background-color: #0c54a4;
 }
 #confirmLogout:hover {
   background-color: rgb(21, 81, 160);
@@ -269,9 +269,10 @@ input[type="text"]:focus {
 }
 
 button {
-  padding: 10px 15px;
-  background-color: #4caf50;
+  padding: 10px 20px;
+  background-color: #0c54a4;
   color: white;
+  font-size: 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -279,7 +280,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #e0960d; /* Darker green on hover */
 }
 
 .grid-container {

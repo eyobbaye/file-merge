@@ -206,3 +206,10 @@ if (username) {
 } else {
   document.querySelector(".user").textContent = "Guest";
 }
+
+// var iframe = document.createElement("iframe");
+// iframe.src = "merge.html";
+// iframe.frameBorder = "0";
+// iframe.width = "100%";
+// iframe.height = "100%";
+// document.body.appendChild(iframe);

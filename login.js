@@ -13,7 +13,9 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     console.log("login success");
     localStorage.setItem("username", username);
     // Redirect to index.html
-    window.location.href = "merge.html";
+    // window.history.pushState({}, "", "/merge");
+
+    window.location.replace("merge.html");
   } else {
     console.log("login failed:");
 

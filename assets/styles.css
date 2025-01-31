@@ -236,6 +236,7 @@ input[type="text"] {
 input[type="text"]:focus {
   border-color: #4caf50; /* Green border on focus */
   outline: none; /* Remove default outline */
+  border: none;
 }
 
 .agenda-line {

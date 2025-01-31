@@ -1,0 +1,21 @@
+{
+  "name": "file-merge",
+  "version": "1.0.0",
+  "main": "login.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyobbaye/file-merge.git"
+  },
+  "keywords": [],
+  "author": "Eyob Baye <eyob.bay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyobbaye/file-merge/issues"
+  },
+  "homepage": "https://github.com/eyobbaye/file-merge#readme",
+  "description": ""
+}

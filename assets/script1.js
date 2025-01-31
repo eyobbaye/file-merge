@@ -186,7 +186,7 @@ document.getElementById("cancelLogout").onclick = function () {
 document.getElementById("confirmLogout").onclick = function () {
   sessionStorage.clear();
   // alert("You have been logged out");
-  window.location.replace("index.html");
+  window.location.replace("../");
 };
 
 // close modal when user clicks outside of modal
